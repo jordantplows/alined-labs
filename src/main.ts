@@ -18,5 +18,11 @@ app.innerHTML = `
       ${content.map((p) => `<p>${p}</p>`).join("\n      ")}
     </div>
   </main>
-  <footer>&copy; Alined Labs</footer>
+  <footer>
+    <div class="footer-links">
+      <a href="https://github.com/alinedlabs" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://x.com/alinedlabs" target="_blank" rel="noopener noreferrer">Twitter</a>
+    </div>
+    <p>&copy; Alined Labs</p>
+  </footer>
 `;
